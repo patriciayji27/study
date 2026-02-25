@@ -355,7 +355,12 @@
       "type": "image",
       "path": "demo-headline/assets/plots/hl-H1-V1-D1-S2.png",
       "instructionLocation": "aboveStimulus",
-      "instruction": "Imagine you have **$100** to invest. **Option A** is the asset whose projected performance is shown in the chart below.",
+      "instruction": "Imagine you have **$100** to invest. <p>**Option A** is the asset whose projected performance is shown in the chart below.</p>",
+      "style":{
+        "width": "700px",
+        "height": "500px",
+        "margin": "100px auto"
+      },
       "nextButtonLocation": "belowStimulus",
       "meta": {
         "trial_id": "hl-H1-V1-D1-S2",
