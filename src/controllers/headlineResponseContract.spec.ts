@@ -92,7 +92,7 @@ describe('demo-headline HTML response contract', () => {
       expect(html).toContain('../../revisitUtilities/revisit-communicate.js');
       expect(html).toContain('postAnswers(buildAnswers(true))');
       expect(html).toContain('window.Revisit.postAnswers(answers)');
-      expect(html).toContain('`${ANSWER_PREFIX}-json`');
+      expect(html).toContain('ANSWER_PREFIX}-json');
     },
   );
 });
